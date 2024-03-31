@@ -44,8 +44,8 @@ Following steps has to be followed to set up GCP using Terraform.
     terraform init
     ```
 
-    > [!NOTE]
-    > if "terraform init" command fails then run "terraform init -upgrade"
+> [!NOTE]
+> if "terraform init" command fails then run "terraform init -upgrade".
 
     ```shell
     # Check changes to new infra plan
@@ -155,13 +155,13 @@ Dashboard has been created using bigquery table and follwing questions are answe
 
 1. Top 10 trending categories based on views, likes, dislikes, Comments ?
 
-![](images\Trending_Categories.png)
+![](images/Trending_Categories.png)
 
 2. Top 10 videos trending based on views in 2023?
 
-![](images\Trending_Videos_Views.png)
+![](images/Trending_Videos_Views.png)
 
-    > [!NOTE]
-    > Following points to be keep in mind as dataset is updating every day.
-    >    If any columns are updated or removed project may fail.
-    >    Above snapshots might be not correct as everyday dataset is getting updated.s
+> [!NOTE]
+> Following points to be keep in mind as dataset is updating every day.
+>    If any columns are updated or removed project may fail.
+>    Above snapshots might be not correct as everyday dataset is getting updated.
