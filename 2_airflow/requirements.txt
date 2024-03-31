@@ -1,0 +1,5 @@
+kaggle
+apache-airflow-providers-google
+pyarrow
+pandas
+gcloud

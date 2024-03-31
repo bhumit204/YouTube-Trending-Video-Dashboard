@@ -1,0 +1,10 @@
+
+models:
+  YT_data:
+    # Applies to all files under models/example/
+    example:
+      +materialized: table
+  YT_data_by_category:
+    # Applies to all files under models/example/
+    example:
+      +materialized: view

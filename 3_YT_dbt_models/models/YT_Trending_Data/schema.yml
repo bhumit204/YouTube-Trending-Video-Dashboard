@@ -1,0 +1,14 @@
+
+version: 2
+
+models:
+    - name: YT_data
+      description: "YouTube processed final data based on videos"
+      columns:
+          - name: id
+            description: "YouTube processed final data based on videos"
+    - name: YT_data_by_category
+      description: "YouTube data based on category"
+      columns:
+          - name: id
+            description: "YouTube data based on category"
