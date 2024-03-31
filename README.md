@@ -42,18 +42,16 @@ Following steps has to be followed to set up GCP using Terraform.
 
     # Initialize state file (.tfstate) (navigate to the terraform directory first)
     terraform init
-    ```
-
-> [!NOTE]
-> if "terraform init" command fails then run "terraform init -upgrade".
-
-    ```shell
+    
     # Check changes to new infra plan
     terraform plan -var="project=<your-gcp-project-id>"
 
     # Create new infra
     terraform apply -var="project=<your-gcp-project-id>"
     ```
+
+> [!NOTE]
+> if "terraform init" command fails try "terraform init -upgrade".
 
 * Delete infra after your work, to avoid costs on any running services
 
