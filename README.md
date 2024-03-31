@@ -163,5 +163,5 @@ Dashboard has been created using bigquery table and follwing questions are answe
 
 > [!NOTE]
 > Following points to be keep in mind as dataset is updating every day.
->    If any columns are updated or removed project may fail.
->    Above snapshots might be not correct as everyday dataset is getting updated.
+> 1. If any columns are updated or removed project may fail.
+> 2. Above snapshots might be not correct as everyday dataset is getting updated.
